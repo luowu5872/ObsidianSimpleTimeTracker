@@ -303,6 +303,7 @@ function startSubEntry(entry: Entry, name: string) {
         entry.subEntries = [{...entry, name: `Part 1`}];
         entry.startTime = null;
         entry.endTime = null;
+        entry.subEntries[0].task = "";
     }
 
     if (!name)
